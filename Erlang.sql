@@ -1,4 +1,4 @@
-INSERT IGNORE INTO Erlang INTO
+INSERT IGNORE INTO Erlang VALUES
 ('Built-in Data Types','','','',1,1000),
 ('Varibles','','','',2,1000),
 ('Primitive','','','',3,1000),

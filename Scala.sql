@@ -4,8 +4,8 @@ INSERT IGNORE INTO Scala VALUES
 ('Primitive','','','',3,1100),
 ('Byte','8 bit signed value. Range from -128 to 127','var or val VariableName : DataType = [Initial Value]','',4,1100),
 ('Short','16 bit signed value. Range -32768 to 32767','','',5,1100),
-"('Int','32 bit signed value. Range -2147483648 to 2147483647','','var myVar = 10; 
-var myVar :Int = 10;',6,1100),"
+('Int','32 bit signed value. Range -2147483648 to 2147483647','','var myVar = 10; 
+var myVar :Int = 10;',6,1100),
 ('Long','64 bit signed value. -9223372036854775808 to 9223372036854775807','','',7,1100),
 ('Float','32 bit IEEE 754 single-precision float','','var myVar = 2.5;',8,1100),
 ('Double','64 bit IEEE 754 double-precision float','','',9,1100),
@@ -23,9 +23,9 @@ var myVar :Int = 10;',6,1100),"
 ('','','','',21,1100),
 ('Structured','','','',22,1100),
 ('Lists','','','',23,1100),
-"('Arrays','A collection of data of the same type','var z:Array[String] = new Array [String](size)
+('Arrays','A collection of data of the same type','var z:Array[String] = new Array [String](size)
 
-var z = new Array [String](size)','',24,1100),"
+var z = new Array [String](size)','',24,1100),
 ('Sets','','','',25,1100),
 ('Vectors','','','',26,1100),
 ('','','','',27,1100),

@@ -40,4 +40,5 @@ INSERT IGNORE INTO Python VALUES
 ("Multiple","","def <fun-name>(<var-name1>, <var-name2>, <var-name3>)","",39,700),
 ("Arbitrary","","def <fun-name>(*<var-name>)","",40,700),
 ("","","","",41,700),
-("Return Mechanism","return <item>","","",42,700),
+("Return Mechanism","return <item>","","",42,700)
+;

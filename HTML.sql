@@ -8,7 +8,7 @@ INSERT IGNORE INTO HTML VALUES
 ('Footers','Add a footer to your website.','<footer>//text</footer>','<footer>My Footer</footer>',7,900),
 ('Titles','What is displayed at the top of the browser tab.','<title>//text</title>','<title>My Website</title>',8,900),
 ('Favicon','Image displayed next to title. Must add the link code right after the title element.','<title></title><link rel="icon" type="image/x-icon" href= //link>','<title></title><link rel="icon" type="image/x-icon" href= "/images/myFavicon.ico">',9,900),
-('Colors','Add color to your element. Must be stated within the element's declaration.','<h1 style=//color>//text</h1>','<h1 style="background-color:Red;">Hello, World!</h1>',10,900),
+('Colors','Add color to your element. Must be stated within the elements declaration.','<h1 style=//color>//text</h1>','<h1 style="background-color:Red;">Hello, World!</h1>',10,900),
 ('','','','',11,900),
 ('Structured','','','',12,900),
 ('Lists','List that groups a set of related items.','Unordered List: <ul> <li> //value </li> <li> //value </li> <li> //value </li> </ul> Ordered List: The same as unordered list but instead of using <ul></ul> you use <ol></ol>','<ul> <li> A </li> <li> B </li> <li> C </li> </ul>',13,900),

@@ -130,7 +130,7 @@ CREATE TABLE IF NOT EXISTS PHP (
 	PRIMARY KEY(ID, Reference)
 );
 
-CREATE TABLE IF NOT EXIST LanguageIndex (
+CREATE TABLE IF NOT EXISTS LanguageIndex (
 	Language varchar(255),
 	Reference int
 )
