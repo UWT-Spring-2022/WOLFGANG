@@ -1,4 +1,5 @@
-create database WOLFGANG;
+-- Uncomment the line below if database is not created
+--create database WOLFGANG;
 
 -----------------------------------------------------------
 --
@@ -38,7 +39,7 @@ INSERT IGNORE INTO LanguageIndex VALUES
 -- Table structure for the C Language table
 --
 
-CREATE TABLE  IF NOT EXISTS C (
+CREATE TABLE IF NOT EXISTS C (
   Name VARCHAR(255) NOT NULL,
   Definition VARCHAR(255) NULL,
   Syntax VARCHAR(255) NULL,
@@ -48,8 +49,8 @@ CREATE TABLE  IF NOT EXISTS C (
   PRIMARY KEY (`ID`),
   INDEX `References_idx` (`Reference` ASC) VISIBLE,
   CONSTRAINT `References`
-    FOREIGN KEY (`Reference`)
-    REFERENCES `wolfgang`.`languageindex` (`References`)
+  FOREIGN KEY (`Reference`)
+  REFERENCES `WOLFGANG`.`LanguageIndex` (`References`)
     ON DELETE RESTRICT
     ON UPDATE CASCADE
 );
@@ -126,8 +127,8 @@ CREATE TABLE  IF NOT EXISTS Clojure (
   PRIMARY KEY (`ID`),
   INDEX `References_idx` (`Reference` ASC) VISIBLE,
   CONSTRAINT `References_1`
-    FOREIGN KEY (`Reference`)
-    REFERENCES `wolfgang`.`languageindex` (`References`)
+  FOREIGN KEY (`Reference`)
+  REFERENCES `WOLFGANG`.`LanguageIndex` (`References`)
     ON DELETE RESTRICT
     ON UPDATE CASCADE
 );
@@ -195,8 +196,8 @@ CREATE TABLE  IF NOT EXISTS CPP (
   PRIMARY KEY (`ID`),
   INDEX `References_idx` (`Reference` ASC) VISIBLE,
   CONSTRAINT `References_2`
-    FOREIGN KEY (`Reference`)
-    REFERENCES `wolfgang`.`languageindex` (`References`)
+  FOREIGN KEY (`Reference`)
+  REFERENCES `WOLFGANG`.`LanguageIndex` (`References`)
     ON DELETE RESTRICT
     ON UPDATE CASCADE
 );
@@ -258,8 +259,8 @@ CREATE TABLE  IF NOT EXISTS CSharp (
   PRIMARY KEY (`ID`),
   INDEX `References_idx` (`Reference` ASC) VISIBLE,
   CONSTRAINT `References_3`
-    FOREIGN KEY (`Reference`)
-    REFERENCES `wolfgang`.`languageindex` (`References`)
+  FOREIGN KEY (`Reference`)
+  REFERENCES `WOLFGANG`.`LanguageIndex` (`References`)
     ON DELETE RESTRICT
     ON UPDATE CASCADE
 );
@@ -324,8 +325,8 @@ CREATE TABLE  IF NOT EXISTS Java (
   PRIMARY KEY (`ID`),
   INDEX `References_idx` (`Reference` ASC) VISIBLE,
   CONSTRAINT `References_4`
-    FOREIGN KEY (`Reference`)
-    REFERENCES `wolfgang`.`languageindex` (`References`)
+  FOREIGN KEY (`Reference`)
+  REFERENCES `WOLFGANG`.`LanguageIndex` (`References`)
     ON DELETE RESTRICT
     ON UPDATE CASCADE
 );
@@ -386,8 +387,8 @@ CREATE TABLE  IF NOT EXISTS Go (
   PRIMARY KEY (`ID`),
   INDEX `References_idx` (`Reference` ASC) VISIBLE,
   CONSTRAINT `References_5`
-    FOREIGN KEY (`Reference`)
-    REFERENCES `wolfgang`.`languageindex` (`References`)
+  FOREIGN KEY (`Reference`)
+  REFERENCES `WOLFGANG`.`LanguageIndex` (`References`)
     ON DELETE RESTRICT
     ON UPDATE CASCADE
 );
@@ -446,8 +447,8 @@ CREATE TABLE  IF NOT EXISTS Python (
   PRIMARY KEY (`ID`),
   INDEX `References_idx` (`Reference` ASC) VISIBLE,
   CONSTRAINT `References_6`
-    FOREIGN KEY (`Reference`)
-    REFERENCES `wolfgang`.`languageindex` (`References`)
+  FOREIGN KEY (`Reference`)
+  REFERENCES `WOLFGANG`.`LanguageIndex` (`References`)
     ON DELETE RESTRICT
     ON UPDATE CASCADE
 );
@@ -516,8 +517,8 @@ CREATE TABLE  IF NOT EXISTS JavaScript (
   PRIMARY KEY (`ID`),
   INDEX `References_idx` (`Reference` ASC) VISIBLE,
   CONSTRAINT `References_7`
-    FOREIGN KEY (`Reference`)
-    REFERENCES `wolfgang`.`languageindex` (`References`)
+  FOREIGN KEY (`Reference`)
+  REFERENCES `WOLFGANG`.`LanguageIndex` (`References`)
     ON DELETE RESTRICT
     ON UPDATE CASCADE
 );
@@ -586,8 +587,8 @@ CREATE TABLE  IF NOT EXISTS HTML (
   PRIMARY KEY (`ID`),
   INDEX `References_idx` (`Reference` ASC) VISIBLE,
   CONSTRAINT `References_8`
-    FOREIGN KEY (`Reference`)
-    REFERENCES `wolfgang`.`languageindex` (`References`)
+  FOREIGN KEY (`Reference`)
+  REFERENCES `WOLFGANG`.`LanguageIndex` (`References`)
     ON DELETE RESTRICT
     ON UPDATE CASCADE
 );
@@ -655,8 +656,8 @@ CREATE TABLE  IF NOT EXISTS Erlang (
   PRIMARY KEY (`ID`),
   INDEX `References_idx` (`Reference` ASC) VISIBLE,
   CONSTRAINT `References_9`
-    FOREIGN KEY (`Reference`)
-    REFERENCES `wolfgang`.`languageindex` (`References`)
+  FOREIGN KEY (`Reference`)
+  REFERENCES `WOLFGANG`.`LanguageIndex` (`References`)
     ON DELETE RESTRICT
     ON UPDATE CASCADE
 );
@@ -805,8 +806,8 @@ CREATE TABLE  IF NOT EXISTS Scala (
   PRIMARY KEY (`ID`),
   INDEX `References_idx` (`Reference` ASC) VISIBLE,
   CONSTRAINT `References_10`
-    FOREIGN KEY (`Reference`)
-    REFERENCES `wolfgang`.`languageindex` (`References`)
+  FOREIGN KEY (`Reference`)
+  REFERENCES `WOLFGANG`.`LanguageIndex` (`References`)
     ON DELETE RESTRICT
     ON UPDATE CASCADE
 );
@@ -1010,8 +1011,8 @@ CREATE TABLE  IF NOT EXISTS Ruby (
   PRIMARY KEY (`ID`),
   INDEX `References_idx` (`Reference` ASC) VISIBLE,
   CONSTRAINT `References_11`
-    FOREIGN KEY (`Reference`)
-    REFERENCES `wolfgang`.`languageindex` (`References`)
+  FOREIGN KEY (`Reference`)
+  REFERENCES `WOLFGANG`.`LanguageIndex` (`References`)
     ON DELETE RESTRICT
     ON UPDATE CASCADE
 );
@@ -1351,8 +1352,8 @@ CREATE TABLE  IF NOT EXISTS PHP (
   PRIMARY KEY (`ID`),
   INDEX `References_idx` (`Reference` ASC) VISIBLE,
   CONSTRAINT `References_12`
-    FOREIGN KEY (`Reference`)
-    REFERENCES `wolfgang`.`languageindex` (`References`)
+  FOREIGN KEY (`Reference`)
+  REFERENCES `WOLFGANG`.`LanguageIndex` (`References`)
     ON DELETE RESTRICT
     ON UPDATE CASCADE
 );
