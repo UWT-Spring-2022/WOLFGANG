@@ -3,10 +3,9 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 //components
 import Home from './components/pages/Home';
-import Goals from './components/pages/Goals';
-import Bills from './components/pages/Bills';
-import Progress from './components/pages/Progress';
-import Store from './components/pages/Store';
+import Search from './components/pages/Search';
+import Languages from './components/pages/Languages';
+import Library from './components/pages/Library';
 import Register from './components/pages/Register';
 import Navbar from './components/utilities/extras/Navbar';
 //css
@@ -19,10 +18,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<Home/>} />
-          <Route path='/Bills' element={<Bills/>} />
-          <Route path='/Goals' element={<Goals/>} />
-          <Route path='/Progress' element={<Progress/>} />
-          <Route path='/Store' element={<Store/>} />
+          <Route path='/Search' element={<Search/>} />
+          <Route path='/Languages' element={<Languages/>} />
+          <Route path='/Library' element={<Library/>} />
           <Route path='/Register' element={<Register/>} />
         </Routes>
       </Router>

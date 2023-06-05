@@ -6,10 +6,9 @@
 }
 
 .home,
-.bills,
-.goals,
-.progress,
-.store,
+.search,
+.languages,
+.library,
 .register {
   display: flex;
   height: 60vh;
@@ -18,7 +17,7 @@
   font-size: 3rem;
 }
 
-.bills {
+.search {
   background-image: url('../public/images/background/img-9.jpg');
   background-position: center;
   background-size: cover;
@@ -27,7 +26,7 @@
   font-size: 100px;
 }
 
-.goals {
+.languages {
   background-image: url('../public/images/background/img-1.jpg');
   background-position: center;
   background-size: fill;
@@ -36,16 +35,7 @@
   font-size: 100px;
 }
 
-.progress {
-  background-image: url('../public/images/background/img-3.jpg');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.store {
+.library {
   background-image: url('../public/images/background/img-5.jpg');
   background-position: center;
   background-size: fill;
